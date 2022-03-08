@@ -1,0 +1,11 @@
+* {
+  border: 1px solid $red;
+}
+
+@include to-mobile-sm {
+  * {
+    border: 1px solid $blue;
+    background: $blue;
+    color: white;
+  }
+}
